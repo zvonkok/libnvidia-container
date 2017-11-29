@@ -33,6 +33,6 @@ USER $USERSPEC
 
 RUN make distclean && make -j"$(nproc)"
 
-ENV DIST_DIR /mnt
+ENV DIST_DIR /opt
 VOLUME $DIST_DIR
-CMD make dist && make rpm
+CMD make install 
