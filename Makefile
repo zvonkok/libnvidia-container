@@ -12,7 +12,7 @@ WITH_SECCOMP ?= 1
 
 ##### Global definitions #####
 
-export prefix      = /usr/local
+export prefix      = /opt/nvidia
 export exec_prefix = $(prefix)
 export bindir      = $(exec_prefix)/bin
 export libdir      = $(exec_prefix)/lib
